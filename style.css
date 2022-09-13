@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    width: 80%;
+    height: fit-content;
+
+}
+.swiper-slide{
+    width:100%;
+}
+button{
+    width: 150px;
+    height: 30px;
+    background-color: orchid;
+    color: white;
+    border:2px solid orchid;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    
+
+}
+button:hover{
+    background-color: transparent;
+    color:aqua;
+}
